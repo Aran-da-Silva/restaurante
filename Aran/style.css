@@ -11,6 +11,7 @@ h1:hover {
 body {
     background-color: antiquewhite;
      box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+     margin: 24;
 }
 a {
     margin: 10;
@@ -20,12 +21,21 @@ a {
 a:hover {
     background-color: azure;
     margin: 10;
+    visibility: hidden;
 }
 h2 {
     background-color: aliceblue;
     margin: 10;
+    ruby-merge: auto;
 }
 h2:hover {
     background-color: antiquewhite;
     margin: 10;
+    prefix: -moz-element(15);
+
+}
+footer {
+    border: 10;
+    margin: 24;
+    
 }
