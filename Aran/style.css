@@ -3,6 +3,8 @@ h1 {
     margin: 5;
     border-radius: .3rem;
     box-shadow: 10px 10px 50px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: row;
 }
 h1:hover {
     margin: 10;
@@ -38,4 +40,49 @@ footer {
     border: 10;
     margin: 24;
     
+}
+header {
+    margin: 0;
+    background-color: ghostwhite;
+    height: 100px;
+    width: 100vw;
+}
+.header-nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    height: 100%;
+    align-items: center;
+    margin: 0;
+
+}
+ul {
+    display: flex;
+}
+a {
+    background-color: gray;
+    
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+.card {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    padding: 16px;
+    gap: 8px;
+}
+.letra {
+    text-align: center;
+    background-color: aliceblue;
+    width: 100px;
+
 }
