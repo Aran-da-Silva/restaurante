@@ -5,9 +5,6 @@ form {
     width: 100%;
     max-width: 450px;
     margin-top: 24px;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 .campo-formulario {
     display: flex;
@@ -20,12 +17,8 @@ button {
 }
 textarea {
     height: 160px;
-    background-color: white;
 }
 .destaque {
     color: red;
     font-weight: bold;
-}
-body {
-    background-color: lightslategray;
 }
